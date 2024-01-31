@@ -27,7 +27,10 @@ $(document).ready(() => {
         else if (scrollTop > 1540 && scrollTop <= 2120) {
             $(".galleryLink").addClass("active");
         }
-        else if (scrollTop > 2120) {
+        else if (scrollTop > 2120 && scrollTop <= 2700) {
+            $(".teamLink").addClass("active");
+        }
+        else if (scrollTop > 2700) {
             $(".aboutUsLink").addClass("active");
         }
     })

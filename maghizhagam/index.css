@@ -222,6 +222,17 @@ a {
 
 /* Container Styling End*/
 
+/* Home Start*/
+#home{
+    display: flex;
+}
+/* .homeContent{
+    background-image: url("./images/cover2.avif");
+    width: 100%;
+    height: 88vh;
+} */
+/* Home End*/
+
 .cover {
     width: 100%;
     max-height: 88vh;
@@ -256,12 +267,12 @@ a {
 
 .serviceTypes {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .image {
     width: 300px;
-    height: 200px;
+    height: 180px;
 }
 
 .card:hover {
@@ -331,8 +342,10 @@ a {
 }
 
 .gallery-image {
-    width: 200px !important;
-    height: 200px;
+    width: 350px !important;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Gallery end */
@@ -352,6 +365,7 @@ a {
 }
 
 .contact-image {
+    margin-top: 5px;
     font-size: 20px;
     color: #fff;
 }
