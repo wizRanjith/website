@@ -172,6 +172,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
+  background: rgba(255, 255, 255, 0.75);
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -498,7 +499,7 @@ section {
   transition: 0.5s;
   color: #fff;
   background: #ffde59;
-  box-shadow: 0px 5px 30px rgb(241, 229, 65);
+  /* box-shadow: 0px 5px 30px rgb(241, 229, 65); */
 }
 
 .hero .btn-get-started span {
@@ -1469,7 +1470,7 @@ section {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
+  /* background: url(../img/team-shape.svg) no-repeat center bottom; */
   background-size: contain;
   z-index: 1;
 }
