@@ -218,7 +218,7 @@ section {
 
 .navbar ul {
   margin: 0;
-  padding: 0;
+  padding-right: 3px;
   display: flex;
   list-style: none;
   align-items: center;
@@ -233,7 +233,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 25px;
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -708,7 +708,7 @@ section {
 }
 
 .features .feature-box h3 {
-  font-size: 18px;
+  font-size: 24px;
   color: #012970;
   font-weight: 700;
   margin: 0;
